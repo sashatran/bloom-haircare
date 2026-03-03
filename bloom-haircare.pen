@@ -1,0 +1,4752 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "ea0OV",
+      "x": -1,
+      "y": 1,
+      "name": "Bloom Haircare Landing Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "#ffffffff",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "hEnUQ",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "$bg-white",
+          "padding": [
+            20,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HBfJP",
+              "name": "logoWrap",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "ciSWT",
+                  "name": "logoIcon",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$accent-pink",
+                        "position": 0
+                      },
+                      {
+                        "color": "$accent-lavender",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "width": 36,
+                  "height": 36
+                },
+                {
+                  "type": "text",
+                  "id": "Q46tl",
+                  "name": "logoText",
+                  "fill": "$text-dark",
+                  "content": "bloom",
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "okOxR",
+              "name": "nav",
+              "gap": 36,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "m6VYN",
+                  "name": "navProducts",
+                  "fill": "$text-medium",
+                  "content": "Products",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "WT23H",
+                  "name": "navIngredients",
+                  "fill": "$text-medium",
+                  "content": "Ingredients",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Y3NZz",
+                  "name": "navAbout",
+                  "fill": "$text-medium",
+                  "content": "About Us",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "hx9Gm",
+                  "name": "navReviews",
+                  "fill": "$text-medium",
+                  "content": "Reviews",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "UDtiU",
+                  "name": "ctaBtn",
+                  "fill": "$accent-pink",
+                  "cornerRadius": 50,
+                  "gap": 8,
+                  "padding": [
+                    12,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LVM0v",
+                      "name": "ctaBtnText",
+                      "fill": "$white",
+                      "content": "Shop Now",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "w0ju3",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 700,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 170,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFFAF7",
+                "position": 0
+              },
+              {
+                "color": "#FFF0F5",
+                "position": 0.5
+              },
+              {
+                "color": "#F3EEFF",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "62BKv",
+              "x": 80,
+              "y": 80,
+              "name": "Hero Text",
+              "width": 580,
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zuKjg",
+                  "name": "heroBadge",
+                  "fill": "#FFF0F5",
+                  "cornerRadius": 50,
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "VuMDa",
+                      "name": "badgeIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-pink"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sTnrA",
+                      "name": "badgeText",
+                      "fill": "$accent-pink",
+                      "content": "100% Clean Beauty",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "rctzk",
+                  "name": "heroH1",
+                  "fill": "$text-dark",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Hair That Feels Like a Daydream",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 62,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "qTh1D",
+                  "name": "heroSub",
+                  "fill": "$text-medium",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Pastel-powered formulas that nourish, protect, and make your hair impossibly soft. No nasties, just pure bloom.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "3pHtc",
+                  "name": "heroCtas",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ICULj",
+                      "name": "heroBtn1",
+                      "fill": "$accent-pink",
+                      "cornerRadius": 50,
+                      "gap": 10,
+                      "padding": [
+                        18,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SUuCt",
+                          "name": "heroBtn1Text",
+                          "fill": "$white",
+                          "content": "Discover Your Routine",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "8HqcY",
+                          "name": "heroBtn1Arrow",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6I1YW",
+                      "name": "heroBtn2",
+                      "fill": "$white",
+                      "cornerRadius": 50,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "$accent-lavender"
+                      },
+                      "padding": [
+                        18,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WxKRA",
+                          "name": "heroBtn2Text",
+                          "fill": "$accent-lavender",
+                          "content": "Watch Our Story",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SengD",
+              "x": 780,
+              "y": 90,
+              "name": "Hero Visual",
+              "width": 520,
+              "height": 520,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772485261456.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 260,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "xDTLB",
+              "x": 1050,
+              "y": 120,
+              "name": "Float Badge Vegan",
+              "fill": "$white",
+              "cornerRadius": 50,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#FF85A220",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 24
+              },
+              "gap": 8,
+              "padding": [
+                10,
+                18
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "0FPO1",
+                  "name": "badge1Icon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "leaf",
+                  "iconFontFamily": "lucide",
+                  "fill": "$accent-mint"
+                },
+                {
+                  "type": "text",
+                  "id": "Vhjlz",
+                  "name": "badge1Text",
+                  "fill": "$text-dark",
+                  "content": "Vegan & Cruelty-Free",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iEFCT",
+              "x": 720,
+              "y": 520,
+              "name": "Float Badge Sulfate",
+              "fill": "$white",
+              "cornerRadius": 50,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#B39DDB20",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 24
+              },
+              "gap": 8,
+              "padding": [
+                10,
+                18
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "X9Ir3",
+                  "name": "badge2Icon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "droplets",
+                  "iconFontFamily": "lucide",
+                  "fill": "$accent-lavender"
+                },
+                {
+                  "type": "text",
+                  "id": "4om1S",
+                  "name": "badge2Text",
+                  "fill": "$text-dark",
+                  "content": "Sulfate-Free",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Ng9KM",
+          "name": "Benefits Section",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "9pxGm",
+              "name": "benefitsHeader",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "C5nUP",
+                  "name": "benefitsLabel",
+                  "fill": "$accent-pink",
+                  "content": "WHY BLOOM?",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "zzWAt",
+                  "name": "benefitsTitle",
+                  "fill": "$text-dark",
+                  "content": "Haircare That Actually Cares",
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 44,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "J2Dac",
+                  "name": "benefitsSubtitle",
+                  "fill": "$text-medium",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "We obsessed over every ingredient so you can obsess over your hair instead.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "65Fnp",
+              "name": "Benefits Cards",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BKssC",
+                  "name": "Card Clean",
+                  "width": "fill_container",
+                  "fill": "$bg-pink",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zMruf",
+                      "name": "card1Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-pink",
+                      "cornerRadius": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "5e12p",
+                          "name": "card1IconInner",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "heart",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "9ryGL",
+                      "name": "card1Title",
+                      "fill": "$text-dark",
+                      "content": "Clean Formulas",
+                      "textAlign": "center",
+                      "fontFamily": "Bricolage Grotesque",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F2Zya",
+                      "name": "card1Desc",
+                      "fill": "$text-medium",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No parabens, sulfates, or silicones. Just plant-powered goodness your hair will thank you for.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zO07W",
+                  "name": "Card Color",
+                  "width": "fill_container",
+                  "fill": "$bg-lavender",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QVzG2",
+                      "name": "card2Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-lavender",
+                      "cornerRadius": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "pK99x",
+                          "name": "card2IconInner",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "palette",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "TYdDd",
+                      "name": "card2Title",
+                      "fill": "$text-dark",
+                      "content": "Color Safe",
+                      "textAlign": "center",
+                      "fontFamily": "Bricolage Grotesque",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JPdHM",
+                      "name": "card2Desc",
+                      "fill": "$text-medium",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Keep your color vibrant wash after wash. Our gentle formulas lock in hue without stripping.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UhBJ4",
+                  "name": "Card Hydrate",
+                  "width": "fill_container",
+                  "fill": "$bg-mint",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w6fH0",
+                      "name": "card3Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-mint",
+                      "cornerRadius": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "HQEf4",
+                          "name": "card3IconInner",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "droplets",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "kTAsB",
+                      "name": "card3Title",
+                      "fill": "$text-dark",
+                      "content": "Deep Hydration",
+                      "textAlign": "center",
+                      "fontFamily": "Bricolage Grotesque",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c6CpN",
+                      "name": "card3Desc",
+                      "fill": "$text-medium",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Botanical hyaluronic acid and aloe vera drench every strand from root to tip for all-day moisture.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2Pokk",
+                  "name": "Card Scent",
+                  "width": "fill_container",
+                  "fill": "$bg-peach",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XT2Zn",
+                      "name": "card4Icon",
+                      "width": 64,
+                      "height": 64,
+                      "fill": "$accent-peach",
+                      "cornerRadius": 32,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "yTwFJ",
+                          "name": "card4IconInner",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "flower",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "J8vWm",
+                      "name": "card4Title",
+                      "fill": "$text-dark",
+                      "content": "Heavenly Scents",
+                      "textAlign": "center",
+                      "fontFamily": "Bricolage Grotesque",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1XogM",
+                      "name": "card4Desc",
+                      "fill": "$text-medium",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Jasmine, peony, vanilla, and citrus blends that turn your shower into a spa moment every day.",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8waGf",
+          "name": "Products Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFFFFF",
+                "position": 0
+              },
+              {
+                "color": "#FFF8F5",
+                "position": 0.3
+              },
+              {
+                "color": "#FFF0F5",
+                "position": 0.7
+              },
+              {
+                "color": "#F8F0FF",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "G4czf",
+              "name": "prodHeader",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UW1LO",
+                  "name": "prodLabel",
+                  "fill": "$accent-lavender",
+                  "content": "BESTSELLERS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "EcmhM",
+                  "name": "prodTitle",
+                  "fill": "$text-dark",
+                  "content": "Meet the Collection",
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 44,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "WU4DP",
+                  "name": "prodSub",
+                  "fill": "$text-medium",
+                  "content": "Four pastel powerhouses. One dreamy routine.",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OPzKk",
+              "name": "Product Grid",
+              "width": "fill_container",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "3KrWT",
+                  "name": "Product Shampoo",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#FF85A212",
+                    "offset": {
+                      "x": 0,
+                      "y": 12
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "9ZIYB",
+                      "name": "p1Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "valeriiamiller",
+                        "link": "https://unsplash.com/@valeriiamiller",
+                        "author": "Valeriia Miller"
+                      },
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1749137315807-036403c62107?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0ODUzMzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        24,
+                        24,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gQCO3",
+                      "name": "p1Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZBIRx",
+                          "name": "p1Tag",
+                          "fill": "$bg-pink",
+                          "cornerRadius": 50,
+                          "padding": [
+                            6,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "CQBUc",
+                              "name": "p1TagText",
+                              "fill": "$accent-pink",
+                              "content": "Hydrating",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "DSuY6",
+                          "name": "p1Name",
+                          "fill": "$text-dark",
+                          "content": "Petal Soft Shampoo",
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LmNT5",
+                          "name": "p1Desc",
+                          "fill": "$text-medium",
+                          "content": "Rose water & silk proteins",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "e6aM1",
+                          "name": "p1Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "9UsD9",
+                              "name": "p1Price",
+                              "fill": "$accent-pink",
+                              "content": "$28",
+                              "fontFamily": "Bricolage Grotesque",
+                              "fontSize": 22,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "z0hlo",
+                              "name": "p1Cart",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "$accent-pink",
+                              "cornerRadius": 20,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "NGQWQ",
+                                  "name": "p1CartIcon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "iconFontName": "plus",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vqAUK",
+                  "name": "Product Conditioner",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#B39DDB12",
+                    "offset": {
+                      "x": 0,
+                      "y": 12
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "2DHdM",
+                      "name": "p2Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "kmile_ch",
+                        "link": "https://unsplash.com/@kmile_ch",
+                        "author": "Camille Brodard"
+                      },
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1623248509172-53853f87cac7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0ODUzNDh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        24,
+                        24,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hVSB5",
+                      "name": "p2Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "WHPcx",
+                          "name": "p2Tag",
+                          "fill": "$bg-lavender",
+                          "cornerRadius": 50,
+                          "padding": [
+                            6,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Pih7I",
+                              "name": "p2TagText",
+                              "fill": "$accent-lavender",
+                              "content": "Smoothing",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "rEMON",
+                          "name": "p2Name",
+                          "fill": "$text-dark",
+                          "content": "Cloud Nine Conditioner",
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yooOy",
+                          "name": "p2Desc",
+                          "fill": "$text-medium",
+                          "content": "Lavender oil & shea butter",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "k9qm9",
+                          "name": "p2Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jhbkg",
+                              "name": "p2Price",
+                              "fill": "$accent-lavender",
+                              "content": "$32",
+                              "fontFamily": "Bricolage Grotesque",
+                              "fontSize": 22,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aSp6b",
+                              "name": "p2Cart",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "$accent-lavender",
+                              "cornerRadius": 20,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "Ro6SJ",
+                                  "name": "p2CartIcon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "iconFontName": "plus",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0nxAh",
+                  "name": "Product Mask",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#81C99512",
+                    "offset": {
+                      "x": 0,
+                      "y": 12
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vod62",
+                      "name": "p3Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "valeriiamiller",
+                        "link": "https://unsplash.com/@valeriiamiller",
+                        "author": "Valeriia Miller"
+                      },
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1749137315710-89dc96d08463?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0ODUzNjB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        24,
+                        24,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dPmKN",
+                      "name": "p3Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "TN9Sk",
+                          "name": "p3Tag",
+                          "fill": "$bg-mint",
+                          "cornerRadius": 50,
+                          "padding": [
+                            6,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ORRsk",
+                              "name": "p3TagText",
+                              "fill": "$accent-mint",
+                              "content": "Repairing",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "1TWoa",
+                          "name": "p3Name",
+                          "fill": "$text-dark",
+                          "content": "Miracle Repair Mask",
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "9xxUm",
+                          "name": "p3Desc",
+                          "fill": "$text-medium",
+                          "content": "Matcha & avocado oil",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RqPMN",
+                          "name": "p3Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GdX1S",
+                              "name": "p3Price",
+                              "fill": "$accent-mint",
+                              "content": "$36",
+                              "fontFamily": "Bricolage Grotesque",
+                              "fontSize": 22,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RdooE",
+                              "name": "p3Cart",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "$accent-mint",
+                              "cornerRadius": 20,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "SmrFr",
+                                  "name": "p3CartIcon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "iconFontName": "plus",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jJFJM",
+                  "name": "Product Oil",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#FFAB7612",
+                    "offset": {
+                      "x": 0,
+                      "y": 12
+                    },
+                    "blur": 40
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yQrZg",
+                      "name": "p4Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "valeriiamiller",
+                        "link": "https://unsplash.com/@valeriiamiller",
+                        "author": "Valeriia Miller"
+                      },
+                      "width": "fill_container",
+                      "height": 320,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1700107650111-86f1b672ee35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0ODUzNzN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        24,
+                        24,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hZEg9",
+                      "name": "p4Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hYtGA",
+                          "name": "p4Tag",
+                          "fill": "$bg-peach",
+                          "cornerRadius": 50,
+                          "padding": [
+                            6,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZpesB",
+                              "name": "p4TagText",
+                              "fill": "$accent-peach",
+                              "content": "Shine",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "qIb6v",
+                          "name": "p4Name",
+                          "fill": "$text-dark",
+                          "content": "Golden Hour Serum",
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4vQ4x",
+                          "name": "p4Desc",
+                          "fill": "$text-medium",
+                          "content": "Argan oil & vitamin E",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zarpG",
+                          "name": "p4Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wnAk5",
+                              "name": "p4Price",
+                              "fill": "$accent-peach",
+                              "content": "$24",
+                              "fontFamily": "Bricolage Grotesque",
+                              "fontSize": 22,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "2yESR",
+                              "name": "p4Cart",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "$accent-peach",
+                              "cornerRadius": 20,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "eHCDY",
+                                  "name": "p4CartIcon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "iconFontName": "plus",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zkZYN",
+          "name": "Testimonials Section",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nBaQ2",
+              "name": "testHeader",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tdOYt",
+                  "name": "testLabel",
+                  "fill": "$accent-coral",
+                  "content": "HAPPY HAIR CLUB",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "01rEu",
+                  "name": "testTitle",
+                  "fill": "$text-dark",
+                  "content": "Real People, Real Results",
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 44,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "RvZxW",
+                  "name": "starsRow",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "nJ7Sn",
+                      "name": "star1",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "FwOFE",
+                      "name": "star2",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "P7fPg",
+                      "name": "star3",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "g1WQm",
+                      "name": "star4",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "dqYrT",
+                      "name": "star5",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AE8ES",
+                      "name": "starText",
+                      "fill": "$text-medium",
+                      "content": " 4.9 from 2,847 reviews",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GLanU",
+              "name": "Testimonial Cards",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PWhMp",
+                  "name": "Testimonial 1",
+                  "width": "fill_container",
+                  "fill": "$bg-pink",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6EyiR",
+                      "name": "t1Quote",
+                      "fill": "$text-dark",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "&quot;My curls have never been this defined and soft. I literally get compliments every single day now. Bloom changed everything.&quot;",
+                      "lineHeight": 1.7,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SzwBT",
+                      "name": "t1Author",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "knNOO",
+                          "name": "t1Avatar",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1772485414084.png",
+                            "mode": "fill"
+                          },
+                          "width": 44,
+                          "height": 44
+                        },
+                        {
+                          "type": "frame",
+                          "id": "O76Jk",
+                          "name": "t1Info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tAZHf",
+                              "name": "t1Name",
+                              "fill": "$text-dark",
+                              "content": "Maya Chen",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "O2zO9",
+                              "name": "t1Role",
+                              "fill": "$text-medium",
+                              "content": "Curly Hair Queen",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W6YaM",
+                  "name": "Testimonial 2",
+                  "width": "fill_container",
+                  "fill": "$bg-lavender",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iFbZW",
+                      "name": "t2Quote",
+                      "fill": "$text-dark",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "&quot;I've tried every brand. EVERY brand. Bloom is the only one that makes my color-treated hair actually feel healthy again.&quot;",
+                      "lineHeight": 1.7,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Evngf",
+                      "name": "t2Author",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "jMu2d",
+                          "name": "t2Avatar",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1772485420387.png",
+                            "mode": "fill"
+                          },
+                          "width": 44,
+                          "height": 44
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WT64C",
+                          "name": "t2NameInfo",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Ki1Kf",
+                              "name": "t2Name",
+                              "fill": "$text-dark",
+                              "content": "Sophia Rivera",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "keZqX",
+                              "name": "t2Role",
+                              "fill": "$text-medium",
+                              "content": "Color Addict",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Qfk9V",
+                  "name": "Testimonial 3",
+                  "width": "fill_container",
+                  "fill": "$bg-mint",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pvJdk",
+                      "name": "t3Quote",
+                      "fill": "$text-dark",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "&quot;The Golden Hour Serum is liquid gold. My frizzy hair is now silky smooth and it smells like a tropical vacation.&quot;",
+                      "lineHeight": 1.7,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EIMDh",
+                      "name": "t3Author",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "Ss0Du",
+                          "name": "t3Avatar",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1772485435267.png",
+                            "mode": "fill"
+                          },
+                          "width": 44,
+                          "height": 44
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iO7pO",
+                          "name": "t3NameInfo",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pJ6si",
+                              "name": "t3Name",
+                              "fill": "$text-dark",
+                              "content": "Priya Patel",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "3WFK7",
+                              "name": "t3Role",
+                              "fill": "$text-medium",
+                              "content": "Frizz Fighter",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "G0CpG",
+          "name": "CTA Section",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFF0F5",
+                "position": 0
+              },
+              {
+                "color": "#F3EEFF",
+                "position": 0.4
+              },
+              {
+                "color": "#EAFAF1",
+                "position": 0.7
+              },
+              {
+                "color": "#FFF3E8",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            100,
+            80
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "qD5v7",
+              "name": "ctaEmoji",
+              "fill": "$text-dark",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Your hair is about to have its main character moment.",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "ZP6pL",
+              "name": "ctaSubtext",
+              "fill": "$text-medium",
+              "textGrowth": "fixed-width",
+              "width": 500,
+              "content": "Join 50,000+ bloom babes who've already made the switch to clean, colorful haircare.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "ouwVN",
+              "name": "ctaBtns",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gb6CD",
+                  "name": "ctaMainBtn",
+                  "fill": "$accent-pink",
+                  "cornerRadius": 50,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#FF85A240",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 32
+                  },
+                  "gap": 10,
+                  "padding": [
+                    20,
+                    44
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "n7GfE",
+                      "name": "ctaMainBtnText",
+                      "fill": "$white",
+                      "content": "Start Your Bloom Journey",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 17,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "Rgkka",
+                      "name": "ctaMainBtnIcon",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "$white"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4paQT",
+              "name": "ctaTrust",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GfNbz",
+                  "name": "ctaTrust1",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "zqdKl",
+                      "name": "ctaTrust1Icon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "truck",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-mint"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M7Grn",
+                      "name": "ctaTrust1Text",
+                      "fill": "$text-medium",
+                      "content": "Free Shipping",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7Nucv",
+                  "name": "ctaTrust2",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "EO34i",
+                      "name": "ctaTrust2Icon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "rotate-ccw",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lavender"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bzLum",
+                      "name": "ctaTrust2Text",
+                      "fill": "$text-medium",
+                      "content": "30-Day Returns",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8Aq8p",
+                  "name": "ctaTrust3",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "No2uu",
+                      "name": "ctaTrust3Icon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "leaf",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-peach"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AvQUf",
+                      "name": "ctaTrust3Text",
+                      "fill": "$text-medium",
+                      "content": "100% Clean",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "UjPWY",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$text-dark",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            60,
+            80,
+            40,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z3PFH",
+              "name": "footerTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OIBGr",
+                  "name": "footerBrand",
+                  "width": 300,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "w5Wgf",
+                      "name": "footerLogoRow",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "2StHz",
+                          "name": "footerLogoCircle",
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 135,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "$accent-pink",
+                                "position": 0
+                              },
+                              {
+                                "color": "$accent-lavender",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "width": 32,
+                          "height": 32
+                        },
+                        {
+                          "type": "text",
+                          "id": "f7Zbj",
+                          "name": "footerLogoText",
+                          "fill": "$white",
+                          "content": "bloom",
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "7xkRy",
+                      "name": "footerTagline",
+                      "fill": "#9CA3AF",
+                      "textGrowth": "fixed-width",
+                      "width": 280,
+                      "content": "Pastel-powered haircare for humans who want soft, happy, gorgeous hair without the guilt.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9EQUg",
+                  "name": "footerCol1",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sVMcs",
+                      "name": "footerCol1Title",
+                      "fill": "$white",
+                      "content": "Shop",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HfV9D",
+                      "name": "footerCol1L1",
+                      "fill": "#9CA3AF",
+                      "content": "All Products",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IiVaK",
+                      "name": "footerCol1L2",
+                      "fill": "#9CA3AF",
+                      "content": "Bundles",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mpaqD",
+                      "name": "footerCol1L3",
+                      "fill": "#9CA3AF",
+                      "content": "Gift Sets",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GaKna",
+                      "name": "footerCol1L4",
+                      "fill": "#9CA3AF",
+                      "content": "Hair Quiz",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KCau3",
+                  "name": "footerCol2",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "62rVC",
+                      "name": "footerCol2Title",
+                      "fill": "$white",
+                      "content": "Learn",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8E3XR",
+                      "name": "footerCol2L1",
+                      "fill": "#9CA3AF",
+                      "content": "Ingredients",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MeBWy",
+                      "name": "footerCol2L2",
+                      "fill": "#9CA3AF",
+                      "content": "Hair Care Tips",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oEeqL",
+                      "name": "footerCol2L3",
+                      "fill": "#9CA3AF",
+                      "content": "Our Story",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZS8pC",
+                      "name": "footerCol2L4",
+                      "fill": "#9CA3AF",
+                      "content": "Blog",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TsJNy",
+                  "name": "footerCol3",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uzHDz",
+                      "name": "footerCol3Title",
+                      "fill": "$white",
+                      "content": "Company",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wCqjw",
+                      "name": "footerCol3L1",
+                      "fill": "#9CA3AF",
+                      "content": "About Us",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IuXe2",
+                      "name": "footerCol3L2",
+                      "fill": "#9CA3AF",
+                      "content": "Sustainability",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nPBMz",
+                      "name": "footerCol3L3",
+                      "fill": "#9CA3AF",
+                      "content": "Careers",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8xTDn",
+                      "name": "footerCol3L4",
+                      "fill": "#9CA3AF",
+                      "content": "Contact",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wCGgw",
+                  "name": "footerSocials",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1Xy8F",
+                      "name": "footerSocialsTitle",
+                      "fill": "$white",
+                      "content": "Follow Us",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MgwFi",
+                      "name": "footerSocialIcons",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "kaN5M",
+                          "name": "fbIcon",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#3D3D50",
+                          "cornerRadius": 18,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "CSQxd",
+                              "name": "fbInner",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "instagram",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9CA3AF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "v2WCw",
+                          "name": "twIcon",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#3D3D50",
+                          "cornerRadius": 18,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "7wLR7",
+                              "name": "twInner",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "twitter",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9CA3AF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9c2eu",
+                          "name": "ytIcon",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "#3D3D50",
+                          "cornerRadius": 18,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "TOqJL",
+                              "name": "ytInner",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "youtube",
+                              "iconFontFamily": "lucide",
+                              "fill": "#9CA3AF"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "NsSdb",
+              "name": "footerDivider",
+              "fill": "#3D3D50",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "1RA4k",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZizUa",
+                  "name": "footerCopy",
+                  "fill": "#6B7280",
+                  "content": "2026 Bloom Haircare. All rights reserved.",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "P3UIu",
+                  "name": "footerLegal",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fLSPP",
+                      "name": "footerPrivacy",
+                      "fill": "#6B7280",
+                      "content": "Privacy Policy",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MvRxH",
+                      "name": "footerTerms",
+                      "fill": "#6B7280",
+                      "content": "Terms of Service",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "2egvk",
+      "x": 1539,
+      "y": 1,
+      "name": "Bloom Mobile - iPhone 16 Pro",
+      "clip": true,
+      "width": 402,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "05ko9",
+          "name": "Mobile Header",
+          "width": "fill_container",
+          "fill": "$bg-white",
+          "padding": [
+            16,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "cau2g",
+              "name": "mLogoWrap",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "VWWQw",
+                  "name": "mLogoIcon",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$accent-pink",
+                        "position": 0
+                      },
+                      {
+                        "color": "$accent-lavender",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "width": 30,
+                  "height": 30
+                },
+                {
+                  "type": "text",
+                  "id": "ArVwp",
+                  "name": "mLogoText",
+                  "fill": "$text-dark",
+                  "content": "bloom",
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cSna1",
+              "name": "mHeaderRight",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "d3aVf",
+                  "name": "mCartBtn",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "shopping-bag",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-dark"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "DIt97",
+                  "name": "mMenuBtn",
+                  "width": 22,
+                  "height": 22,
+                  "iconFontName": "menu",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-dark"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "bvD9Q",
+          "name": "Mobile Hero",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 170,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFFAF7",
+                "position": 0
+              },
+              {
+                "color": "#FFF0F5",
+                "position": 0.5
+              },
+              {
+                "color": "#F3EEFF",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            24,
+            48,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "u85qE",
+              "name": "Mobile Hero Visual",
+              "width": 260,
+              "height": 260,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772486514201.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 130,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "5ed5Q",
+              "name": "mHeroText",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "okXDV",
+                  "name": "mHeroBadge",
+                  "fill": "#FFF0F5",
+                  "cornerRadius": 50,
+                  "gap": 6,
+                  "padding": [
+                    6,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ndpmK",
+                      "name": "mBadgeIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "sparkles",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-pink"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rkAzF",
+                      "name": "mBadgeText",
+                      "fill": "$accent-pink",
+                      "content": "100% Clean Beauty",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "6dWzh",
+                  "name": "mHeroH1",
+                  "fill": "$text-dark",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Hair That Feels Like a Daydream",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 36,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "7Rfu9",
+                  "name": "mHeroSub",
+                  "fill": "$text-medium",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Pastel-powered formulas that nourish, protect, and make your hair impossibly soft. No nasties, just pure bloom.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "omKKv",
+                  "name": "mHeroCtas",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uFvzv",
+                      "name": "mHeroBtn1",
+                      "width": "fill_container",
+                      "fill": "$accent-pink",
+                      "cornerRadius": 50,
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jNLj3",
+                          "name": "mHeroBtn1Text",
+                          "fill": "$white",
+                          "content": "Discover Your Routine",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "Qky1Q",
+                          "name": "mHeroBtn1Arrow",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "arrow-right",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IDSne",
+                      "name": "mHeroBtn2",
+                      "width": "fill_container",
+                      "fill": "$white",
+                      "cornerRadius": 50,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "$accent-lavender"
+                      },
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nQbRs",
+                          "name": "mHeroBtn2Text",
+                          "fill": "$accent-lavender",
+                          "content": "Watch Our Story",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gOtXT",
+          "name": "Mobile Benefits",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "4yM22",
+              "name": "mBenHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "31x4B",
+                  "name": "mBenLabel",
+                  "fill": "$accent-pink",
+                  "content": "WHY BLOOM?",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "SWoez",
+                  "name": "mBenTitle",
+                  "fill": "$text-dark",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Haircare That Actually Cares",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Rbgs6",
+                  "name": "mBenSub",
+                  "fill": "$text-medium",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We obsessed over every ingredient so you can obsess over your hair instead.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jYKot",
+              "name": "mBenRow1",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ezbsF",
+                  "name": "mc1",
+                  "width": "fill_container",
+                  "fill": "$bg-pink",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mZq1c",
+                      "name": "mc1Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$accent-pink",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "gTlKF",
+                          "name": "mc1IconInner",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "heart",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ENUTU",
+                      "name": "mc1Title",
+                      "fill": "$text-dark",
+                      "content": "Clean Formulas",
+                      "textAlign": "center",
+                      "fontFamily": "Bricolage Grotesque",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "alJj7",
+                      "name": "mc1Desc",
+                      "fill": "$text-medium",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No parabens, sulfates, or silicones.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lzrqc",
+                  "name": "mc2",
+                  "width": "fill_container",
+                  "fill": "$bg-lavender",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "puRbk",
+                      "name": "mc2Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$accent-lavender",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "bZI97",
+                          "name": "mc2IconInner",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "palette",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "qI5HP",
+                      "name": "mc2Title",
+                      "fill": "$text-dark",
+                      "content": "Color Safe",
+                      "textAlign": "center",
+                      "fontFamily": "Bricolage Grotesque",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZlDZ1",
+                      "name": "mc2Desc",
+                      "fill": "$text-medium",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lock in vibrant color every wash.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FWdEW",
+              "name": "mBenRow2",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jsQjx",
+                  "name": "mc3",
+                  "width": "fill_container",
+                  "fill": "$bg-mint",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TGKua",
+                      "name": "mc3Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$accent-mint",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "kpXxj",
+                          "name": "mc3IconInner",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "droplets",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "W8S4U",
+                      "name": "mc3Title",
+                      "fill": "$text-dark",
+                      "content": "Deep Hydration",
+                      "textAlign": "center",
+                      "fontFamily": "Bricolage Grotesque",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "8pdOC",
+                      "name": "mc3Desc",
+                      "fill": "$text-medium",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "All-day moisture from root to tip.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VSnSb",
+                  "name": "mc4",
+                  "width": "fill_container",
+                  "fill": "$bg-peach",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OJXml",
+                      "name": "mc4Icon",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "$accent-peach",
+                      "cornerRadius": 24,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "MRUBP",
+                          "name": "mc4IconInner",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "flower",
+                          "iconFontFamily": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SF0b3",
+                      "name": "mc4Title",
+                      "fill": "$text-dark",
+                      "content": "Heavenly Scents",
+                      "textAlign": "center",
+                      "fontFamily": "Bricolage Grotesque",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KeFNd",
+                      "name": "mc4Desc",
+                      "fill": "$text-medium",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Shower-to-spa with every wash.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eRZqY",
+          "name": "Mobile Products",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 180,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFFFFF",
+                "position": 0
+              },
+              {
+                "color": "#FFF8F5",
+                "position": 0.3
+              },
+              {
+                "color": "#FFF0F5",
+                "position": 0.7
+              },
+              {
+                "color": "#F8F0FF",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "qUVMX",
+              "name": "mProdHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SNcqN",
+                  "name": "mProdLabel",
+                  "fill": "$accent-lavender",
+                  "content": "BESTSELLERS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "J0LXR",
+                  "name": "mProdTitle",
+                  "fill": "$text-dark",
+                  "content": "Meet the Collection",
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "0MQFd",
+                  "name": "mProdSub",
+                  "fill": "$text-medium",
+                  "content": "Four pastel powerhouses. One dreamy routine.",
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "asOE4",
+              "name": "mProdRow1",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RQzzf",
+                  "name": "M Product Shampoo",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 20,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#FF85A210",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BfmuB",
+                      "name": "mp1Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "theshubhamdhage",
+                        "link": "https://unsplash.com/@theshubhamdhage",
+                        "author": "Shubham Dhage"
+                      },
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1752134593973-ac72a80ba7c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0ODY1NzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        20,
+                        20,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ruWTH",
+                      "name": "mp1Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VMi3r",
+                          "name": "mp1Tag",
+                          "fill": "$bg-pink",
+                          "cornerRadius": 50,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "1GPSN",
+                              "name": "mp1TagText",
+                              "fill": "$accent-pink",
+                              "content": "Hydrating",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "UpsUQ",
+                          "name": "mp1Name",
+                          "fill": "$text-dark",
+                          "content": "Petal Soft Shampoo",
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5Npbh",
+                          "name": "mp1Desc",
+                          "fill": "$text-medium",
+                          "content": "Rose water & silk proteins",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LObPv",
+                          "name": "mp1Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "BIdgQ",
+                              "name": "mp1Price",
+                              "fill": "$accent-pink",
+                              "content": "$28",
+                              "fontFamily": "Bricolage Grotesque",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GQojQ",
+                              "name": "mp1Cart",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "$accent-pink",
+                              "cornerRadius": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "RvxgU",
+                                  "name": "mp1CartIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "plus",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "I4Bqh",
+                  "name": "M Product Conditioner",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 20,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#B39DDB10",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZaWpq",
+                      "name": "mp2Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "kmile_ch",
+                        "link": "https://unsplash.com/@kmile_ch",
+                        "author": "Camille Brodard"
+                      },
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1623248509172-53853f87cac7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0ODY1ODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        20,
+                        20,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nrnhd",
+                      "name": "mp2Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ksILj",
+                          "name": "mp2Tag",
+                          "fill": "$bg-lavender",
+                          "cornerRadius": 50,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jq75w",
+                              "name": "mp2TagText",
+                              "fill": "$accent-lavender",
+                              "content": "Smoothing",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "l0F5k",
+                          "name": "mp2Name",
+                          "fill": "$text-dark",
+                          "content": "Cloud Nine Conditioner",
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ETZFg",
+                          "name": "mp2Desc",
+                          "fill": "$text-medium",
+                          "content": "Lavender oil & shea butter",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TtREb",
+                          "name": "mp2Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jRxyX",
+                              "name": "mp2Price",
+                              "fill": "$accent-lavender",
+                              "content": "$32",
+                              "fontFamily": "Bricolage Grotesque",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dNI6S",
+                              "name": "mp2Cart",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "$accent-lavender",
+                              "cornerRadius": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "1MKJk",
+                                  "name": "mp2CartIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "plus",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4FGhL",
+              "name": "mProdRow2",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Z12gb",
+                  "name": "M Product Mask",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 20,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#81C99510",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "39N5y",
+                      "name": "mp3Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "valeriiamiller",
+                        "link": "https://unsplash.com/@valeriiamiller",
+                        "author": "Valeriia Miller"
+                      },
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1749137315710-89dc96d08463?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0ODY1OTN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        20,
+                        20,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zinGl",
+                      "name": "mp3Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "qgjuY",
+                          "name": "mp3Tag",
+                          "fill": "$bg-mint",
+                          "cornerRadius": 50,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PeWK1",
+                              "name": "mp3TagText",
+                              "fill": "$accent-mint",
+                              "content": "Repairing",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "rYAPh",
+                          "name": "mp3Name",
+                          "fill": "$text-dark",
+                          "content": "Miracle Repair Mask",
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XV1A2",
+                          "name": "mp3Desc",
+                          "fill": "$text-medium",
+                          "content": "Matcha & avocado oil",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TGZTh",
+                          "name": "mp3Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "8X4lV",
+                              "name": "mp3Price",
+                              "fill": "$accent-mint",
+                              "content": "$36",
+                              "fontFamily": "Bricolage Grotesque",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AkuYV",
+                              "name": "mp3Cart",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "$accent-mint",
+                              "cornerRadius": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "MD61I",
+                                  "name": "mp3CartIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "plus",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RzVRm",
+                  "name": "M Product Oil",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 20,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#FFAB7610",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bty7o",
+                      "name": "mp4Img",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "eladepure",
+                        "link": "https://unsplash.com/@eladepure",
+                        "author": "Ela De Pure"
+                      },
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1765726951362-df46f5a74cdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzI0ODY1OTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        20,
+                        20,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Gy3ca",
+                      "name": "mp4Info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "AuzWD",
+                          "name": "mp4Tag",
+                          "fill": "$bg-peach",
+                          "cornerRadius": 50,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Ishye",
+                              "name": "mp4TagText",
+                              "fill": "$accent-peach",
+                              "content": "Shine",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "SsocU",
+                          "name": "mp4Name",
+                          "fill": "$text-dark",
+                          "content": "Golden Hour Serum",
+                          "fontFamily": "Bricolage Grotesque",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ffyhc",
+                          "name": "mp4Desc",
+                          "fill": "$text-medium",
+                          "content": "Argan oil & vitamin E",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BiUl8",
+                          "name": "mp4Bottom",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eCjB2",
+                              "name": "mp4Price",
+                              "fill": "$accent-peach",
+                              "content": "$24",
+                              "fontFamily": "Bricolage Grotesque",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "k0YiB",
+                              "name": "mp4Cart",
+                              "width": 32,
+                              "height": 32,
+                              "fill": "$accent-peach",
+                              "cornerRadius": 16,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "IOojo",
+                                  "name": "mp4CartIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "plus",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TeTWx",
+          "name": "Mobile Testimonials",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "kEX8u",
+              "name": "mTestHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W8vYZ",
+                  "name": "mTestLabel",
+                  "fill": "$accent-coral",
+                  "content": "HAPPY HAIR CLUB",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "4y4sd",
+                  "name": "mTestTitle",
+                  "fill": "$text-dark",
+                  "content": "Real People, Real Results",
+                  "textAlign": "center",
+                  "fontFamily": "Bricolage Grotesque",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "XfXmu",
+                  "name": "mStarsRow",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "JZv15",
+                      "name": "ms1",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "KWqed",
+                      "name": "ms2",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "jnqYR",
+                      "name": "ms3",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "CHPTq",
+                      "name": "ms4",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "NwbKN",
+                      "name": "ms5",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "star",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lemon"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pVaiq",
+                      "name": "msText",
+                      "fill": "$text-medium",
+                      "content": " 4.9 from 2,847 reviews",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qLUXV",
+              "name": "Mobile Testimonial Cards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "r7pXd",
+                  "name": "M Testimonial 1",
+                  "width": "fill_container",
+                  "fill": "$bg-pink",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VsSyO",
+                      "name": "mt1Quote",
+                      "fill": "$text-dark",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“My curls have never been this defined and soft. Bloom changed everything.”",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7LKns",
+                      "name": "mt1Author",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "KKznz",
+                          "name": "mt1Avatar",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1772486637203.png",
+                            "mode": "fill"
+                          },
+                          "width": 36,
+                          "height": 36
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xISY6",
+                          "name": "mt1Info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DBVXJ",
+                              "name": "mt1Name",
+                              "fill": "$text-dark",
+                              "content": "Maya Chen",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "SMJn5",
+                              "name": "mt1Role",
+                              "fill": "$text-medium",
+                              "content": "Curly Hair Queen",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4aZ89",
+                  "name": "M Testimonial 2",
+                  "width": "fill_container",
+                  "fill": "$bg-lavender",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kZKAD",
+                      "name": "mt2Quote",
+                      "fill": "$text-dark",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“The only brand that makes my color-treated hair actually feel healthy again.”",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AryRi",
+                      "name": "mt2Author",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "w8pCi",
+                          "name": "mt2Avatar",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1772486643319.png",
+                            "mode": "fill"
+                          },
+                          "width": 36,
+                          "height": 36
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zB7XP",
+                          "name": "mt2NameInfo",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ALG5J",
+                              "name": "mt2Name",
+                              "fill": "$text-dark",
+                              "content": "Sophia Rivera",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "mhTlt",
+                              "name": "mt2Role",
+                              "fill": "$text-medium",
+                              "content": "Color Addict",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s1RB4",
+                  "name": "M Testimonial 3",
+                  "width": "fill_container",
+                  "fill": "$bg-mint",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tZt3e",
+                      "name": "mt3Quote",
+                      "fill": "$text-dark",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“The Golden Hour Serum is liquid gold. My frizzy hair is now silky smooth.”",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "he7S4",
+                      "name": "mt3Author",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "BJot6",
+                          "name": "mt3Avatar",
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1772486650093.png",
+                            "mode": "fill"
+                          },
+                          "width": 36,
+                          "height": 36
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PjOkh",
+                          "name": "mt3NameInfo",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lnoKW",
+                              "name": "mt3Name",
+                              "fill": "$text-dark",
+                              "content": "Priya Patel",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WgfYr",
+                              "name": "mt3Role",
+                              "fill": "$text-medium",
+                              "content": "Frizz Fighter",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7qxnh",
+          "name": "Mobile CTA",
+          "width": "fill_container",
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 135,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#FFF0F5",
+                "position": 0
+              },
+              {
+                "color": "#F3EEFF",
+                "position": 0.4
+              },
+              {
+                "color": "#EAFAF1",
+                "position": 0.7
+              },
+              {
+                "color": "#FFF3E8",
+                "position": 1
+              }
+            ]
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            56,
+            24
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "zSF5d",
+              "name": "mCtaTitle",
+              "fill": "$text-dark",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Your hair is about to have its main character moment.",
+              "lineHeight": 1.2,
+              "textAlign": "center",
+              "fontFamily": "Bricolage Grotesque",
+              "fontSize": 28,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "sH4r1",
+              "name": "mCtaSub",
+              "fill": "$text-medium",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Join 50,000+ bloom babes who've already made the switch to clean, colorful haircare.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "DM Sans",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "UNvSG",
+              "name": "mCtaBtn",
+              "width": "fill_container",
+              "fill": "$accent-pink",
+              "cornerRadius": 50,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#FF85A240",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 32
+              },
+              "gap": 8,
+              "padding": [
+                18,
+                36
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JnFRB",
+                  "name": "mCtaBtnText",
+                  "fill": "$white",
+                  "content": "Start Your Bloom Journey",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "UTbJX",
+                  "name": "mCtaBtnIcon",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "sparkles",
+                  "iconFontFamily": "lucide",
+                  "fill": "$white"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Nr5C5",
+              "name": "mCtaTrust",
+              "width": "fill_container",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "d4eLQ",
+                  "name": "mTr1",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "HnvFs",
+                      "name": "mTr1Icon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "truck",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-mint"
+                    },
+                    {
+                      "type": "text",
+                      "id": "u4Ubi",
+                      "name": "mTr1Text",
+                      "fill": "$text-medium",
+                      "content": "Free Shipping",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QzflS",
+                  "name": "mTr2",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ipPls",
+                      "name": "mTr2Icon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "rotate-ccw",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-lavender"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4gdH5",
+                      "name": "mTr2Text",
+                      "fill": "$text-medium",
+                      "content": "30-Day Returns",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WrLE4",
+                  "name": "mTr3",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "d21Qq",
+                      "name": "mTr3Icon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "leaf",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-peach"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lOBv1",
+                      "name": "mTr3Text",
+                      "fill": "$text-medium",
+                      "content": "100% Clean",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fUYny",
+          "name": "Mobile Footer",
+          "width": "fill_container",
+          "fill": "$text-dark",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            24,
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "QmTAU",
+              "name": "mFooterBrand",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9n7sG",
+                  "name": "mFooterLogoRow",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "Qc73L",
+                      "name": "mFooterLogoCircle",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "$accent-pink",
+                            "position": 0
+                          },
+                          {
+                            "color": "$accent-lavender",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 28,
+                      "height": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "n220s",
+                      "name": "mFooterLogoText",
+                      "fill": "$white",
+                      "content": "bloom",
+                      "fontFamily": "Bricolage Grotesque",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "rTDgb",
+                  "name": "mFooterTagline",
+                  "fill": "#9CA3AF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Pastel-powered haircare for soft, happy, gorgeous hair without the guilt.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I3Qng",
+              "name": "mFooterLinks",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NGmRH",
+                  "name": "mFCol1",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "83zcT",
+                      "name": "mFCol1T",
+                      "fill": "$white",
+                      "content": "Shop",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RSN1L",
+                      "name": "mFCol1L1",
+                      "fill": "#9CA3AF",
+                      "content": "All Products",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QAKW8",
+                      "name": "mFCol1L2",
+                      "fill": "#9CA3AF",
+                      "content": "Bundles",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JNfAZ",
+                      "name": "mFCol1L3",
+                      "fill": "#9CA3AF",
+                      "content": "Gift Sets",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oPNSu",
+                  "name": "mFCol2",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KMFwR",
+                      "name": "mFCol2T",
+                      "fill": "$white",
+                      "content": "Learn",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zh0Nu",
+                      "name": "mFCol2L1",
+                      "fill": "#9CA3AF",
+                      "content": "Ingredients",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5B6td",
+                      "name": "mFCol2L2",
+                      "fill": "#9CA3AF",
+                      "content": "Hair Tips",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Auxkd",
+                      "name": "mFCol2L3",
+                      "fill": "#9CA3AF",
+                      "content": "Our Story",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3AyYs",
+                  "name": "mFCol3",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FHN1O",
+                      "name": "mFCol3T",
+                      "fill": "$white",
+                      "content": "Company",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mi4Qy",
+                      "name": "mFCol3L1",
+                      "fill": "#9CA3AF",
+                      "content": "About Us",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XYT8b",
+                      "name": "mFCol3L2",
+                      "fill": "#9CA3AF",
+                      "content": "Careers",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R9Avv",
+                      "name": "mFCol3L3",
+                      "fill": "#9CA3AF",
+                      "content": "Contact",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Phyqo",
+              "name": "mFooterSocials",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "4H5lK",
+                  "name": "mFb",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#3D3D50",
+                  "cornerRadius": 18,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "XQLJA",
+                      "name": "mFbIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "instagram",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IrRdz",
+                  "name": "mTw",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#3D3D50",
+                  "cornerRadius": 18,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "K1f6g",
+                      "name": "mTwIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "twitter",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cY4z2",
+                  "name": "mYt",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#3D3D50",
+                  "cornerRadius": 18,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "poAyR",
+                      "name": "mYtIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "youtube",
+                      "iconFontFamily": "lucide",
+                      "fill": "#9CA3AF"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "AwnvB",
+              "name": "mFooterDivider",
+              "fill": "#3D3D50",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "RNzTV",
+              "name": "mFooterBottom",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZcsHN",
+                  "name": "mCopy",
+                  "fill": "#6B7280",
+                  "content": "2026 Bloom Haircare. All rights reserved.",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "jsPSi",
+                  "name": "mLegal",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DxJxA",
+                      "name": "mPrivacy",
+                      "fill": "#6B7280",
+                      "content": "Privacy Policy",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Zxvmp",
+                      "name": "mTerms",
+                      "fill": "#6B7280",
+                      "content": "Terms of Service",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-coral": {
+      "type": "color",
+      "value": "#FF6B6B"
+    },
+    "accent-lavender": {
+      "type": "color",
+      "value": "#B39DDB"
+    },
+    "accent-lemon": {
+      "type": "color",
+      "value": "#FFD54F"
+    },
+    "accent-mint": {
+      "type": "color",
+      "value": "#81C995"
+    },
+    "accent-peach": {
+      "type": "color",
+      "value": "#FFAB76"
+    },
+    "accent-pink": {
+      "type": "color",
+      "value": "#FF85A2"
+    },
+    "bg-lavender": {
+      "type": "color",
+      "value": "#F3EEFF"
+    },
+    "bg-lemon": {
+      "type": "color",
+      "value": "#FFFCE8"
+    },
+    "bg-mint": {
+      "type": "color",
+      "value": "#EAFAF1"
+    },
+    "bg-peach": {
+      "type": "color",
+      "value": "#FFF3E8"
+    },
+    "bg-pink": {
+      "type": "color",
+      "value": "#FFF0F5"
+    },
+    "bg-white": {
+      "type": "color",
+      "value": "#FFFAF7"
+    },
+    "text-dark": {
+      "type": "color",
+      "value": "#2D2D3A"
+    },
+    "text-light": {
+      "type": "color",
+      "value": "#9CA3AF"
+    },
+    "text-medium": {
+      "type": "color",
+      "value": "#6B6B80"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    }
+  }
+}
